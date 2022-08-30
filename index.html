@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="home-section">
+        <div class="row w-100 m-0">
+            <a href="#"><img src="image/0Ijlnt5o4BoiQCi9j6mA8wGu1jmCiCTSYMVMTDOj.png" alt="" class="logo" onclick="logo()"></a>
+            <a href="#"><img src="image/0Ijlnt5o4BoiQCi9j6mA8wGu1jmCiCTSYMVMTDOj.png" alt="" class="logo1"></a>
+            <a href="#" class="home1" onclick="right()" id="home2"><i class="fa-solid fa-house-user"></i></a>
+            <div class="col-12 col-md-7 left">
+                <img src="image/mask.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-5 right p-0" id="right">
+                <div class="home" id="home">
+                    <div class="header">
+                        <h2><a onclick="cart()" href="#" >chrt (0)</a></h2>
+                        <a onclick="list()" class="list" href="#">
+                            <div class="up"></div>
+                            <div class="mid"></div>
+                            <div class="low"></div>
+                        </a>
+                    </div>
+                    <div class="home-text">
+                        <h2>Small Act</h2>
+                        <h1>Big Impact</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, dolor ullam! Ex ducimus minus asperiores commodi adipisci temporibus, excepturi repellendus quasi aut non maiores voluptates et voluptatibus consectetur cumque rem.</p>
+                        <h3>FLAVOUR</h3>
+                        <div class="btn1">
+                            <a href="#" class="flav">FLAVOUR 1</a>
+                            <a href="#" class="flav">FLAVOUR 2</a>
+                            <a href="#" class="flav">FLAVOUR 3</a>
+                        </div>
+                        <div class="btn2">
+                            <input type="number" name="" id="" value="1" lang="en">
+                            <a href="#">ADD TO CART (15 SAR)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list1" id="list1">
+                    <div class="link">
+                        <a href="#" onclick="home()"><i class="fa-solid fa-xmark"></i></a>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Call Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cart" id="cart">
+                    <div class="header">
+                        <h3>Cart</h3>
+                        <a href="#" onclick="home()"><i class="fa-solid fa-circle-xmark"></i></a>
+                    </div>
+                    <div class="item" id="item">
+                        <div class="name">
+                            <img src="image/mask.jpg" alt="">
+                            <div class="name-text">
+                                <h3>FLAVOUR</h3>
+                                <input type="number" name="" id="" value="1" disabled>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>15 SAR</h5>
+                            <a href="#"><p onclick="item()">Delete</p></a>
+                        </div>
+                    </div>
+                    <div class="item" id="item">
+                        <div class="name">
+                            <img src="image/mask.jpg" alt="">
+                            <div class="name-text">
+                                <h3>FLAVOUR</h3>
+                                <input type="number" name="" id="" value="1" disabled>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h5>15 SAR</h5>
+                            <a href="#"><p onclick="item()">Delete</p></a>
+                            
+                        </div>
+                    </div>
+                    <div class="total">
+                        <h5>Subtotal</h5>
+                        <p>30 SAR</p>
+                    </div>
+                    <button type="submit">CHECKOUT</button>
+                    <button type="submit">CONTINUE SHOPPING</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
